@@ -1,0 +1,856 @@
+{
+ "f1_defender_distance_simpson": {
+  "n": 1322,
+  "marginal_made_ft": 4.430446749021774,
+  "marginal_miss_ft": 4.608673897579528,
+  "marginal_t": -1.0191635951107687,
+  "marginal_p": 0.3083122711272684,
+  "logit_coef_def_dist": 0.10196808210342571,
+  "logit_odds_ratio": 1.1073481269408834,
+  "logit_p": 9.73536597517206e-06,
+  "logit_coef_shot_dist": -0.09397402091827212,
+  "by_zone": {
+   "above_break_3": {
+    "n": 403,
+    "fg": 0.34739454094292804,
+    "made_dist": 5.869634891438821,
+    "miss_dist": 5.935168091501244,
+    "t": -0.21844644171370292,
+    "p": 0.8272344427245208
+   },
+   "corner_3": {
+    "n": 96,
+    "fg": 0.34375,
+    "made_dist": 8.202805592261537,
+    "miss_dist": 6.1457165312128925,
+    "t": 2.748058083444271,
+    "p": 0.00850483036750261
+   },
+   "long_midrange": {
+    "n": 153,
+    "fg": 0.37254901960784315,
+    "made_dist": 4.614458969438157,
+    "miss_dist": 4.070808827116461,
+    "t": 1.510243387916894,
+    "p": 0.13423115564887528
+   },
+   "rim": {
+    "n": 340,
+    "fg": 0.6294117647058823,
+    "made_dist": 3.5662693196597597,
+    "miss_dist": 2.4742493420036005,
+    "t": 5.353635178846073,
+    "p": 1.6549066345974207e-07
+   },
+   "short_midrange_paint": {
+    "n": 316,
+    "fg": 0.4810126582278481,
+    "made_dist": 3.407628324171994,
+    "miss_dist": 2.944882756655833,
+    "t": 2.2768152592389,
+    "p": 0.02360372187141102
+   }
+  }
+ },
+ "f2_transition": {
+  "n_transition": 357,
+  "n_halfcourt": 1698,
+  "sq_transition": 50.63673284170104,
+  "sq_halfcourt": 41.927743612116885,
+  "sq_t": 4.573998563700543,
+  "sq_p": 7.758199999636982e-06,
+  "contested_transition": 0.5609756097560976,
+  "contested_halfcourt": 0.7530562347188264,
+  "ppc_transition": 0.8291316526610645,
+  "ppc_halfcourt": 0.8380447585394581,
+  "ppc_t": -0.14137522393343274,
+  "ppc_p": 0.8876269447032099,
+  "to_transition": 0.13445378151260504,
+  "to_halfcourt": 0.11896348645465253,
+  "duration_transition": 5.918459989635552,
+  "duration_halfcourt": 12.824062578439417,
+  "time_to_shot_transition": 5.752571428571429,
+  "time_to_shot_halfcourt": 12.49846153846154
+ },
+ "f3_offball": {
+  "quartiles": {
+   "Q1": {
+    "n": 359,
+    "dist": 34.9526,
+    "fg": 0.4262,
+    "xfg": 0.4493,
+    "sq": 43.2342,
+    "open_rate": 0.2365,
+    "sep": 3.8969,
+    "sep_gain": -2.5615
+   },
+   "Q2": {
+    "n": 359,
+    "dist": 49.6863,
+    "fg": 0.4262,
+    "xfg": 0.4301,
+    "sq": 41.1883,
+    "open_rate": 0.2323,
+    "sep": 4.0248,
+    "sep_gain": -2.9833
+   },
+   "Q3": {
+    "n": 359,
+    "dist": 63.962,
+    "fg": 0.3788,
+    "xfg": 0.4501,
+    "sq": 41.1726,
+    "open_rate": 0.25,
+    "sep": 4.2746,
+    "sep_gain": -2.4728
+   },
+   "Q4": {
+    "n": 359,
+    "dist": 127.8913,
+    "fg": 0.4262,
+    "xfg": 0.5006,
+    "sq": 47.7409,
+    "open_rate": 0.3818,
+    "sep": 4.9047,
+    "sep_gain": -4.0096
+   }
+  },
+  "sep_gap_ft": 1.0047494433740554,
+  "sep_gap_ci": [
+   0.5880757970854764,
+   1.4202603551919746
+  ],
+  "fg_gap": 0.0003746518105849582,
+  "fg_gap_ci": [
+   -0.07520891364902504,
+   0.07249303621169943
+  ],
+  "n": 1436
+ },
+ "f4_help_collapse": {
+  "n": 657,
+  "help_start_ft": 12.297315554396354,
+  "help_min_ft": 4.951084961555874,
+  "help_closed_ft": 7.34623059284048,
+  "t": 42.46614714304843,
+  "p": 2.0628624422352008e-190,
+  "paint_defenders_added": 1.7747336377473364,
+  "curve": {
+   "0.0": {
+    "help": 12.297,
+    "near": 5.024,
+    "paint": 0.938,
+    "n": 660
+   },
+   "0.2": {
+    "help": 11.446,
+    "near": 4.465,
+    "paint": 0.965,
+    "n": 659
+   },
+   "0.4": {
+    "help": 10.599,
+    "near": 4.062,
+    "paint": 0.991,
+    "n": 658
+   },
+   "0.6": {
+    "help": 9.791,
+    "near": 3.848,
+    "paint": 1.058,
+    "n": 658
+   },
+   "0.8": {
+    "help": 9.05,
+    "near": 3.753,
+    "paint": 1.161,
+    "n": 654
+   },
+   "1.0": {
+    "help": 8.422,
+    "near": 3.665,
+    "paint": 1.298,
+    "n": 644
+   },
+   "1.2": {
+    "help": 7.931,
+    "near": 3.534,
+    "paint": 1.472,
+    "n": 630
+   },
+   "1.4": {
+    "help": 7.472,
+    "near": 3.404,
+    "paint": 1.696,
+    "n": 601
+   },
+   "1.6": {
+    "help": 7.053,
+    "near": 3.245,
+    "paint": 1.927,
+    "n": 565
+   },
+   "1.8": {
+    "help": 6.755,
+    "near": 3.092,
+    "paint": 2.098,
+    "n": 514
+   },
+   "2.0": {
+    "help": 6.548,
+    "near": 3.023,
+    "paint": 2.208,
+    "n": 445
+   }
+  },
+  "by_end_type": {
+   "interiorPass": {
+    "n": 64,
+    "ppd": 0.469,
+    "help_closed": 7.037,
+    "paint_added": 1.375
+   },
+   "kickout": {
+    "n": 184,
+    "ppd": 0.418,
+    "help_closed": 7.022,
+    "paint_added": 1.656
+   },
+   "pullout": {
+    "n": 13,
+    "ppd": 0.0,
+    "help_closed": 5.32,
+    "paint_added": 2.0
+   },
+   "pullup": {
+    "n": 96,
+    "ppd": 0.781,
+    "help_closed": 6.014,
+    "paint_added": 1.625
+   },
+   "shotNearBasket": {
+    "n": 246,
+    "ppd": 0.76,
+    "help_closed": 8.42,
+    "paint_added": 2.045
+   },
+   "stoppage": {
+    "n": 29,
+    "ppd": 0.0,
+    "help_closed": 6.15,
+    "paint_added": 1.69
+   },
+   "turnover": {
+    "n": 28,
+    "ppd": 0.0,
+    "help_closed": 7.568,
+    "paint_added": 1.607
+   }
+  },
+  "succ_vs_fail_help_closed": 0.5148986780138263,
+  "succ_vs_fail_ci": [
+   -0.1868995851529959,
+   1.2099821798737274
+  ],
+  "n_samples": 8351
+ },
+ "f5_pick_coverage": {
+  "handler_coverage": {
+   "blitz": {
+    "n": 4,
+    "ppp": 0.0,
+    "handler_ppp": 0.0,
+    "shot": 0.25,
+    "assist": 0.0,
+    "to": 0.0,
+    "foul": 0.0,
+    "direct": 0.5
+   },
+   "ice": {
+    "n": 14,
+    "ppp": 0.7143,
+    "handler_ppp": 0.5,
+    "shot": 0.1429,
+    "assist": 0.2143,
+    "to": 0.0,
+    "foul": 0.0,
+    "direct": 0.7143
+   },
+   "over": {
+    "n": 1004,
+    "ppp": 0.4681,
+    "handler_ppp": 0.3974,
+    "shot": 0.2221,
+    "assist": 0.0857,
+    "to": 0.0279,
+    "foul": 0.0558,
+    "direct": 0.5647
+   },
+   "switch": {
+    "n": 218,
+    "ppp": 0.422,
+    "handler_ppp": 0.3716,
+    "shot": 0.2202,
+    "assist": 0.0917,
+    "to": 0.0459,
+    "foul": 0.0826,
+    "direct": 0.5459
+   },
+   "under": {
+    "n": 280,
+    "ppp": 0.3714,
+    "handler_ppp": 0.3607,
+    "shot": 0.2,
+    "assist": 0.0571,
+    "to": 0.025,
+    "foul": 0.0607,
+    "direct": 0.4464
+   }
+  },
+  "screener_coverage": {
+   "blitz": {
+    "n": 4,
+    "ppp": 0.0,
+    "scr_ppp": 0.0
+   },
+   "ice": {
+    "n": 14,
+    "ppp": 0.7143,
+    "scr_ppp": 0.7143
+   },
+   "none": {
+    "n": 6,
+    "ppp": 0.5,
+    "scr_ppp": 0.0
+   },
+   "show": {
+    "n": 615,
+    "ppp": 0.4455,
+    "scr_ppp": 0.1642
+   },
+   "soft": {
+    "n": 663,
+    "ppp": 0.448,
+    "scr_ppp": 0.1071
+   },
+   "switch": {
+    "n": 218,
+    "ppp": 0.422,
+    "scr_ppp": 0.1697
+   }
+  },
+  "over_minus_under": 0.09708161283437679,
+  "ci": [
+   -0.021447780307342092,
+   0.21414520489470687
+  ],
+  "roll_rate": 0.6605263157894737,
+  "pop_rate": 0.028289473684210528
+ },
+ "f6_closeouts": {
+  "n": 601,
+  "tight_n": 199,
+  "loose_n": 402,
+  "pts_tight": 0.5577889447236181,
+  "pts_loose": 0.7686567164179104,
+  "pts_gap": 0.21076751293782342,
+  "pts_gap_ci": [
+   0.013034075851896343,
+   0.4012750318757969
+  ],
+  "foul_tight": 0.11557788944723618,
+  "foul_loose": 0.0472636815920398,
+  "foul_chi2_p": 0.0034842917181203575,
+  "stop_tight": 0.678391959798995,
+  "stop_loose": 0.6791044776119403,
+  "mean_start_ft": 14.296580802803126,
+  "mean_end_ft": 5.389086169397873,
+  "mean_rate_fps": 7.039355704286666,
+  "by_action": {
+   "drive": {
+    "n": 127,
+    "start": 13.233,
+    "end": 3.936,
+    "rate": 7.397,
+    "pts": 0.606,
+    "stop": 0.591
+   },
+   "other": {
+    "n": 74,
+    "start": 14.11,
+    "end": 5.002,
+    "rate": 6.795,
+    "pts": 0.608,
+    "stop": 0.541
+   },
+   "pass": {
+    "n": 117,
+    "start": 13.728,
+    "end": 5.184,
+    "rate": 6.484,
+    "pts": 0.359,
+    "stop": 0.863
+   },
+   "shot": {
+    "n": 282,
+    "start": 15.06,
+    "end": 6.228,
+    "rate": 7.168,
+    "pts": 0.908,
+    "stop": 0.677
+   }
+  }
+ },
+ "f7_shot_model": {
+  "logistic+spatial": {
+   "n": 1322,
+   "base_rate": 0.451588502269289,
+   "log_loss": 0.6227218205226814,
+   "log_loss_baseline": 0.6884524829948215,
+   "brier": 0.2175926322805758,
+   "brier_baseline": 0.24765632688746939,
+   "auc": 0.6896736556344942
+  },
+  "logistic_no_spatial": {
+   "n": 1322,
+   "base_rate": 0.451588502269289,
+   "log_loss": 0.6238771671881773,
+   "log_loss_baseline": 0.6884524829948215,
+   "brier": 0.21807647795213284,
+   "brier_baseline": 0.24765632688746939,
+   "auc": 0.68742563391671
+  },
+  "gbm": {
+   "n": 1322,
+   "base_rate": 0.451588502269289,
+   "log_loss": 0.6493539935867462,
+   "log_loss_baseline": 0.6884524829948215,
+   "brier": 0.22926101871046395,
+   "brier_baseline": 0.24765632688746939,
+   "auc": 0.6545162594582107
+  },
+  "skillcorner_shotquality_auc": 0.7113359902963091,
+  "skillcorner_vs_our_xfg_corr": 0.6771750766936204
+ },
+ "f8_spacing": {
+  "quintiles": {
+   "Q1": {
+    "n": 379,
+    "hull": 355.5129,
+    "ppc": 0.8127,
+    "to": 0.0976
+   },
+   "Q2": {
+    "n": 379,
+    "hull": 494.332,
+    "ppc": 0.8575,
+    "to": 0.0976
+   },
+   "Q3": {
+    "n": 379,
+    "hull": 580.0604,
+    "ppc": 0.8047,
+    "to": 0.1398
+   },
+   "Q4": {
+    "n": 379,
+    "hull": 655.557,
+    "ppc": 0.9235,
+    "to": 0.1161
+   },
+   "Q5": {
+    "n": 379,
+    "hull": 811.68,
+    "ppc": 0.9288,
+    "to": 0.1451
+   }
+  },
+  "pearson_r": 0.0186531662613977,
+  "pearson_p": 0.41705738375006024,
+  "q5_minus_q1": 0.11714248021108178,
+  "ci": [
+   -0.05013192612137196,
+   0.28232189973614774
+  ],
+  "n": 1895
+ },
+ "f9_chains": {
+  "top": [
+   {
+    "action_chain": "drive:shotNearBasket",
+    "chances": 15,
+    "pts_per_chance": 1.533,
+    "shot_rate": 0.733,
+    "three_rate": 0.0,
+    "make_rate": 0.467,
+    "turnover_rate": 0.0,
+    "foul_rate": 0.267,
+    "transition_rate": 0.267
+   },
+   {
+    "action_chain": "pick:over > pick:over > closeout",
+    "chances": 10,
+    "pts_per_chance": 1.1,
+    "shot_rate": 1.0,
+    "three_rate": 0.9,
+    "make_rate": 0.4,
+    "turnover_rate": 0.0,
+    "foul_rate": 0.0,
+    "transition_rate": 0.0
+   },
+   {
+    "action_chain": "pick:over > drive:shotNearBasket",
+    "chances": 17,
+    "pts_per_chance": 1.059,
+    "shot_rate": 0.765,
+    "three_rate": 0.0,
+    "make_rate": 0.294,
+    "turnover_rate": 0.0,
+    "foul_rate": 0.235,
+    "transition_rate": 0.176
+   },
+   {
+    "action_chain": "pick:switch",
+    "chances": 17,
+    "pts_per_chance": 1.0,
+    "shot_rate": 0.647,
+    "three_rate": 0.353,
+    "make_rate": 0.353,
+    "turnover_rate": 0.176,
+    "foul_rate": 0.176,
+    "transition_rate": 0.0
+   },
+   {
+    "action_chain": "post",
+    "chances": 16,
+    "pts_per_chance": 1.0,
+    "shot_rate": 0.688,
+    "three_rate": 0.0,
+    "make_rate": 0.375,
+    "turnover_rate": 0.125,
+    "foul_rate": 0.188,
+    "transition_rate": 0.125
+   },
+   {
+    "action_chain": "drive:shotNearBasket > pick:over",
+    "chances": 27,
+    "pts_per_chance": 0.963,
+    "shot_rate": 0.778,
+    "three_rate": 0.0,
+    "make_rate": 0.259,
+    "turnover_rate": 0.0,
+    "foul_rate": 0.222,
+    "transition_rate": 0.074
+   },
+   {
+    "action_chain": "pick:over",
+    "chances": 94,
+    "pts_per_chance": 0.947,
+    "shot_rate": 0.489,
+    "three_rate": 0.138,
+    "make_rate": 0.277,
+    "turnover_rate": 0.128,
+    "foul_rate": 0.34,
+    "transition_rate": 0.149
+   },
+   {
+    "action_chain": "obscreen > obscreen > pick:over",
+    "chances": 14,
+    "pts_per_chance": 0.929,
+    "shot_rate": 0.714,
+    "three_rate": 0.286,
+    "make_rate": 0.429,
+    "turnover_rate": 0.143,
+    "foul_rate": 0.071,
+    "transition_rate": 0.0
+   },
+   {
+    "action_chain": "closeout",
+    "chances": 54,
+    "pts_per_chance": 0.926,
+    "shot_rate": 0.87,
+    "three_rate": 0.685,
+    "make_rate": 0.296,
+    "turnover_rate": 0.074,
+    "foul_rate": 0.056,
+    "transition_rate": 0.593
+   },
+   {
+    "action_chain": "pick:over > closeout",
+    "chances": 25,
+    "pts_per_chance": 0.92,
+    "shot_rate": 0.96,
+    "three_rate": 0.8,
+    "make_rate": 0.32,
+    "turnover_rate": 0.0,
+    "foul_rate": 0.04,
+    "transition_rate": 0.0
+   },
+   {
+    "action_chain": "iso",
+    "chances": 12,
+    "pts_per_chance": 0.917,
+    "shot_rate": 0.75,
+    "three_rate": 0.333,
+    "make_rate": 0.25,
+    "turnover_rate": 0.0,
+    "foul_rate": 0.167,
+    "transition_rate": 0.083
+   },
+   {
+    "action_chain": "obscreen > obscreen",
+    "chances": 21,
+    "pts_per_chance": 0.857,
+    "shot_rate": 0.429,
+    "three_rate": 0.143,
+    "make_rate": 0.286,
+    "turnover_rate": 0.19,
+    "foul_rate": 0.238,
+    "transition_rate": 0.143
+   }
+  ],
+  "bigrams": [
+   {
+    "from": "obscreen",
+    "to": "obscreen",
+    "n": 331,
+    "pts_per_chance": 0.804
+   },
+   {
+    "from": "pick:over",
+    "to": "closeout",
+    "n": 205,
+    "pts_per_chance": 0.956
+   },
+   {
+    "from": "obscreen",
+    "to": "pick:over",
+    "n": 179,
+    "pts_per_chance": 0.911
+   },
+   {
+    "from": "obscreen",
+    "to": "handoff",
+    "n": 159,
+    "pts_per_chance": 0.761
+   },
+   {
+    "from": "pick:over",
+    "to": "pick:over",
+    "n": 102,
+    "pts_per_chance": 0.971
+   },
+   {
+    "from": "handoff",
+    "to": "pick:over",
+    "n": 101,
+    "pts_per_chance": 0.802
+   },
+   {
+    "from": "pick:over",
+    "to": "obscreen",
+    "n": 90,
+    "pts_per_chance": 0.733
+   },
+   {
+    "from": "obscreen",
+    "to": "closeout",
+    "n": 71,
+    "pts_per_chance": 0.746
+   },
+   {
+    "from": "handoff",
+    "to": "obscreen",
+    "n": 68,
+    "pts_per_chance": 0.603
+   },
+   {
+    "from": "drive:shotNearBasket",
+    "to": "pick:over",
+    "n": 57,
+    "pts_per_chance": 1.07
+   },
+   {
+    "from": "drive:kickout",
+    "to": "closeout",
+    "n": 57,
+    "pts_per_chance": 1.053
+   },
+   {
+    "from": "closeout",
+    "to": "drive:shotNearBasket",
+    "n": 52,
+    "pts_per_chance": 1.038
+   }
+  ]
+ },
+ "f10_tracking_quality": {
+  "pct_detected_range": [
+   76.17446503918023,
+   82.76354461265458
+  ],
+  "mean_pred_error_range": [
+   1.5201202630996704,
+   1.859364628791809
+  ],
+  "p95_pred_error_range": [
+   4.883453369140625,
+   6.2816548347473145
+  ],
+  "extrapolated_error_range": [
+   4.361234664916992,
+   5.147673606872559
+  ],
+  "corr_raw_vs_delivered_speed": 0.9987409249001507,
+  "raw_max_speed": 98.13088094435199,
+  "smoothed_max_speed": 48.01218795776367,
+  "raw_mean_speed": 5.331458200867607,
+  "smoothed_mean_speed": 5.322474052723299,
+  "raw_p99": 17.270755660611375,
+  "smoothed_p99": 17.25509384727477
+ },
+ "f11_creation": {
+  "closeout": {
+   "n": 134,
+   "fg": 0.3582,
+   "xfg": 0.3769,
+   "sq": 39.6331,
+   "pts": 0.9925,
+   "three": 0.7836,
+   "open_rate": 0.3284,
+   "def_dist": 6.2785
+  },
+  "drive": {
+   "n": 424,
+   "fg": 0.4104,
+   "xfg": 0.4715,
+   "sq": 41.122,
+   "pts": 0.8679,
+   "three": 0.1108,
+   "open_rate": 0.219,
+   "def_dist": 3.5144
+  },
+  "handoff": {
+   "n": 54,
+   "fg": 0.3519,
+   "xfg": 0.3694,
+   "sq": 37.6575,
+   "pts": 0.9259,
+   "three": 0.6852,
+   "open_rate": 0.283,
+   "def_dist": 4.789
+  },
+  "isolation": {
+   "n": 32,
+   "fg": 0.2812,
+   "xfg": 0.2933,
+   "sq": 33.1506,
+   "pts": 0.75,
+   "three": 0.625,
+   "open_rate": 0.0667,
+   "def_dist": 3.9413
+  },
+  "off_ball_screen": {
+   "n": 76,
+   "fg": 0.3289,
+   "xfg": 0.3745,
+   "sq": 38.5361,
+   "pts": 0.8289,
+   "three": 0.5789,
+   "open_rate": 0.2133,
+   "def_dist": 4.6837
+  },
+  "pick": {
+   "n": 319,
+   "fg": 0.4044,
+   "xfg": 0.4287,
+   "sq": 42.1832,
+   "pts": 1.0063,
+   "three": 0.6144,
+   "open_rate": 0.2843,
+   "def_dist": 4.8358
+  },
+  "post": {
+   "n": 37,
+   "fg": 0.4324,
+   "xfg": 0.4475,
+   "sq": 44.1472,
+   "pts": 0.9459,
+   "three": 0.1622,
+   "open_rate": 0.25,
+   "def_dist": 2.8835
+  },
+  "unstructured": {
+   "n": 383,
+   "fg": 0.4856,
+   "xfg": 0.5341,
+   "sq": 50.1671,
+   "pts": 1.0339,
+   "three": 0.2089,
+   "open_rate": 0.3414,
+   "def_dist": 4.3365
+  }
+ },
+ "f12_clustering": {
+  "silhouette_by_k": [
+   {
+    "k": 3,
+    "inertia": 2440.4058,
+    "silhouette": 0.2663
+   },
+   {
+    "k": 4,
+    "inertia": 2240.6699,
+    "silhouette": 0.2391
+   },
+   {
+    "k": 5,
+    "inertia": 2111.7192,
+    "silhouette": 0.1627
+   },
+   {
+    "k": 6,
+    "inertia": 1991.4377,
+    "silhouette": 0.1702
+   },
+   {
+    "k": 7,
+    "inertia": 1879.3537,
+    "silhouette": 0.1878
+   },
+   {
+    "k": 8,
+    "inertia": 1812.4126,
+    "silhouette": 0.1634
+   },
+   {
+    "k": 9,
+    "inertia": 1720.1355,
+    "silhouette": 0.1669
+   }
+  ],
+  "best_k": 3,
+  "best_silhouette": 0.26626375147830167,
+  "n_players": 233,
+  "clusters": [
+   {
+    "cluster": 0,
+    "n": 65,
+    "high": "screener_picks_per_game (+1.30), rim_attempt_rate (+1.26), ft_rate (+0.87), cns_share (+0.61)",
+    "low": "avg_shot_distance (-1.28), three_attempt_rate (-1.25), pick_role_ratio (-1.08), corner3_share (-0.82)"
+   },
+   {
+    "cluster": 1,
+    "n": 74,
+    "high": "corner3_share (+1.03), three_attempt_rate (+0.76), assisted_share (+0.72), cns_share (+0.71)",
+    "low": "drives_per_game (-0.60), ft_rate (-0.59), handler_picks_per_game (-0.56), shot_volume_per_game (-0.51)"
+   },
+   {
+    "cluster": 2,
+    "n": 94,
+    "high": "drives_per_game (+1.00), pick_role_ratio (+0.99), handler_picks_per_game (+0.95), shot_volume_per_game (+0.69)",
+    "low": "cns_share (-0.98), assisted_share (-0.98), screener_picks_per_game (-0.60), rim_attempt_rate (-0.49)"
+   }
+  ]
+ }
+}

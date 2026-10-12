@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "basketball-intelligence"
+version = "1.0.0"
+description = "Tracking-data analytics and scouting platform built on SkillCorner basketball open data (Liga ACB 2025/26)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2", "numpy>=1.26", "pyarrow>=15.0", "duckdb>=1.0",
+  "scipy>=1.12", "scikit-learn>=1.4", "statsmodels>=0.14",
+  "streamlit>=1.40", "plotly>=5.22", "orjson>=3.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "playwright>=1.44"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+filterwarnings = ["ignore::FutureWarning", "ignore::UserWarning", "ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

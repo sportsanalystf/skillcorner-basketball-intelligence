@@ -1,0 +1,4873 @@
+{
+ "games": [
+  "114086",
+  "114099",
+  "114169",
+  "114234",
+  "114243",
+  "178442",
+  "179612",
+  "184439",
+  "188630",
+  "191313"
+ ],
+ "tables": {
+  "chance_players": {
+   "rows_10_games": 20540,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 20540
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance_player-114086-1-0",
+      "chance_player-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 20540
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 20540
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 20540
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-0",
+      "chance-114086-1-0"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 20540
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-0"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 20540
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "playerId": {
+     "types": {
+      "int": 20540
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offense": {
+     "types": {
+      "bool": 20540
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startMatchupId": {
+     "types": {
+      "int": 19100,
+      "null": 1440
+     },
+     "null_pct": 7.01,
+     "examples": []
+    },
+    "endMatchupId": {
+     "types": {
+      "int": 19100,
+      "null": 1440
+     },
+     "null_pct": 7.01,
+     "examples": []
+    },
+    "shotLoc": {
+     "types": {
+      "null": 6025,
+      "list": 14515
+     },
+     "null_pct": 29.33,
+     "examples": [
+      [
+       -16.929646489501312,
+       -16.429831036745405
+      ],
+      [
+       -14.26396407480315,
+       10.22699311023622
+      ]
+     ]
+    },
+    "rimLoc": {
+     "types": {
+      "null": 6035,
+      "list": 14505
+     },
+     "null_pct": 29.38,
+     "examples": [
+      [
+       -17.26285679133858,
+       -15.840305118110235
+      ],
+      [
+       -14.16143782808399,
+       10.12446686351706
+      ]
+     ]
+    },
+    "reboundLoc": {
+     "types": {
+      "null": 13170,
+      "list": 7370
+     },
+     "null_pct": 64.12,
+     "examples": [
+      [
+       -16.724593996062993,
+       -14.57154281496063
+      ],
+      [
+       -14.520279691601049,
+       9.957861712598426
+      ]
+     ]
+    },
+    "minutesPlayedBefore": {
+     "types": {
+      "float": 20540
+     },
+     "null_pct": 0.0,
+     "examples": []
+    }
+   },
+   "enums": {}
+  },
+  "chances": {
+   "rows_10_games": 2055,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 2055
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-0",
+      "chance-114086-1-1"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 2055
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-0"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 2055
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startFrame": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startGameClock": {
+     "types": {
+      "float": 2054,
+      "null": 1
+     },
+     "null_pct": 0.05,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startType": {
+     "types": {
+      "str": 2055
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "JMP",
+      "DEFOB"
+     ]
+    },
+    "outcome": {
+     "types": {
+      "str": 2055
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "FOU",
+      "FGX"
+     ]
+    },
+    "offPlayerIds": {
+     "types": {
+      "list": 2055
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       24949,
+       24268,
+       59136,
+       59138,
+       35096
+      ],
+      [
+       24949,
+       24268,
+       59136,
+       59138,
+       35096
+      ]
+     ]
+    },
+    "defPlayerIds": {
+     "types": {
+      "list": 2055
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       59157,
+       15347,
+       25182,
+       59158,
+       35402
+      ],
+      [
+       59157,
+       15347,
+       25182,
+       59158,
+       35402
+      ]
+     ]
+    },
+    "homeStartScore": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "awayStartScore": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ptsScored": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startShotClock": {
+     "types": {
+      "null": 23,
+      "float": 2032
+     },
+     "null_pct": 1.12,
+     "examples": []
+    },
+    "endShotClock": {
+     "types": {
+      "float": 2047,
+      "null": 8
+     },
+     "null_pct": 0.39,
+     "examples": []
+    },
+    "ballInPaint": {
+     "types": {
+      "bool": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endOfPossession": {
+     "types": {
+      "bool": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endLoc": {
+     "types": {
+      "list": 1916,
+      "null": 139
+     },
+     "null_pct": 6.76,
+     "examples": [
+      [
+       -29.194348753280828,
+       8.900559793307085
+      ],
+      [
+       -40.0877624671916,
+       -2.273199126476378
+      ]
+     ]
+    },
+    "frontcourtFrame": {
+     "types": {
+      "int": 1910,
+      "null": 145
+     },
+     "null_pct": 7.06,
+     "examples": []
+    },
+    "transition": {
+     "types": {
+      "bool": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "lastChanceId": {
+     "types": {
+      "null": 41,
+      "str": 2014
+     },
+     "null_pct": 2.0,
+     "examples": [
+      "chance-114086-1-0",
+      "chance-114086-1-1"
+     ]
+    },
+    "qualityIndex": {
+     "types": {
+      "int": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "usable": {
+     "types": {
+      "bool": 2055
+     },
+     "null_pct": 0.0,
+     "examples": []
+    }
+   },
+   "enums": {
+    "startType": {
+     "DEFOB": 549,
+     "FGM": 487,
+     "FGDRB": 462,
+     "FGORB": 180,
+     "FTM": 172,
+     "TO": 143,
+     "FTDRB": 44,
+     "JMP": 11,
+     "FTORB": 7
+    },
+    "outcome": {
+     "FOU": 417,
+     "FGM": 396,
+     "FGX": 388,
+     "FGX3": 340,
+     "TO": 250,
+     "FGM3": 176,
+     "Out of Bounds": 68,
+     "EPD": 20
+    }
+   }
+  },
+  "closeouts": {
+   "rows_10_games": 601,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 601
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "closeout-114086-1-0",
+      "closeout-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 601
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 601
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-1",
+      "chance-114086-1-3"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 601
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-1"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "touchGameClock": {
+     "types": {
+      "float": 600,
+      "null": 1
+     },
+     "null_pct": 0.17,
+     "examples": []
+    },
+    "touchFrame": {
+     "types": {
+      "int": 600,
+      "null": 1
+     },
+     "null_pct": 0.17,
+     "examples": []
+    },
+    "touchWallClock": {
+     "types": {
+      "str": 600,
+      "null": 1
+     },
+     "null_pct": 0.17,
+     "examples": [
+      "53080",
+      "77000"
+     ]
+    },
+    "startGameClock": {
+     "types": {
+      "float": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startFrame": {
+     "types": {
+      "int": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "direct": {
+     "types": {
+      "bool": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 598,
+      "null": 3
+     },
+     "null_pct": 0.5,
+     "examples": [
+      [
+       -35.381807742782144,
+       -22.081590387139112
+      ],
+      [
+       -24.990772637795274,
+       2.3276661950459316
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 598,
+      "null": 3
+     },
+     "null_pct": 0.5,
+     "examples": [
+      "right wing three",
+      "middle two"
+     ]
+    },
+    "startLoc": {
+     "types": {
+      "list": 599,
+      "null": 2
+     },
+     "null_pct": 0.33,
+     "examples": [
+      [
+       -27.7692339238845,
+       -9.570825131233564
+      ],
+      [
+       -33.192872375328086,
+       5.126312335958005
+      ]
+     ]
+    },
+    "endLoc": {
+     "types": {
+      "list": 598,
+      "null": 3
+     },
+     "null_pct": 0.5,
+     "examples": [
+      [
+       -37.72453248031499,
+       -13.338664698162692
+      ],
+      [
+       -27.784612860892388,
+       1.182255782480315
+      ]
+     ]
+    },
+    "touchLoc": {
+     "types": {
+      "list": 598,
+      "null": 3
+     },
+     "null_pct": 0.5,
+     "examples": [
+      [
+       -30.57332677165352,
+       -13.802595964566905
+      ],
+      [
+       -32.44955708661417,
+       3.8479381971784776
+      ]
+     ]
+    },
+    "startDistance": {
+     "types": {
+      "float": 599,
+      "null": 2
+     },
+     "null_pct": 0.33,
+     "examples": []
+    },
+    "touchDistance": {
+     "types": {
+      "float": 598,
+      "null": 3
+     },
+     "null_pct": 0.5,
+     "examples": []
+    },
+    "endDistance": {
+     "types": {
+      "float": 598,
+      "null": 3
+     },
+     "null_pct": 0.5,
+     "examples": []
+    },
+    "ballhandlerId": {
+     "types": {
+      "int": 600,
+      "null": 1
+     },
+     "null_pct": 0.17,
+     "examples": []
+    },
+    "ballhandlerDefId": {
+     "types": {
+      "int": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 601
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "bhrOutcomes": {
+     "types": {
+      "list": 601
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       "FGX"
+      ],
+      [
+       "FGX"
+      ]
+     ]
+    },
+    "bhrAction": {
+     "types": {
+      "str": 600,
+      "null": 1
+     },
+     "null_pct": 0.17,
+     "examples": [
+      "drive",
+      "shot"
+     ]
+    },
+    "touchId": {
+     "types": {
+      "str": 600,
+      "null": 1
+     },
+     "null_pct": 0.17,
+     "examples": [
+      "touch-114086-1-6",
+      "touch-114086-1-11"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "left wing three": 156,
+     "right wing three": 137,
+     "middle three": 92,
+     "right corner three": 68,
+     "left corner three": 62,
+     "left wing two": 19,
+     "right wing two": 16,
+     "left corner two": 14,
+     "middle two": 13,
+     "right corner two": 11,
+     "far": 9,
+     "backcourt": 1
+    },
+    "bhrOutcomes": {
+     "FGX": 247,
+     "FGX3": 187,
+     "PASS": 169,
+     "FGM": 129,
+     "FGM3": 91,
+     "FOUL": 42,
+     "AST0": 33,
+     "AST": 26,
+     "TO": 24,
+     "FOU_N": 21,
+     "AST3": 17,
+     "FOU_S": 16,
+     "AST2": 10,
+     "TMO": 9,
+     "BLK": 5,
+     "ASTF": 5,
+     "ASTO": 3,
+     "FOU_O": 3,
+     "FOU_B": 2
+    },
+    "bhrAction": {
+     "shot": 282,
+     "drive": 127,
+     "pass": 117,
+     "other": 74
+    }
+   }
+  },
+  "dribbles": {
+   "rows_10_games": 13962,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 13962
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "dribble-114086-1-0",
+      "dribble-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 13962
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 13962
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 13962
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-31",
+      "chance-114086-1-33"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 13962
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-23",
+      "possession-114086-1-25"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 13962
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "gameClock": {
+     "types": {
+      "float": 13962
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "frame": {
+     "types": {
+      "int": 13962
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "wallClock": {
+     "types": {
+      "int": 13962
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ballhandlerId": {
+     "types": {
+      "int": 13962
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 13962
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 13962
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 13961,
+      "null": 1
+     },
+     "null_pct": 0.01,
+     "examples": [
+      [
+       -18.68540846456693,
+       18.698224245406823
+      ],
+      [
+       -36.62750164041995,
+       -13.213070045931758
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 13961,
+      "null": 1
+     },
+     "null_pct": 0.01,
+     "examples": [
+      "left wing three",
+      "right wing two"
+     ]
+    },
+    "touchId": {
+     "types": {
+      "str": 13821,
+      "null": 141
+     },
+     "null_pct": 1.01,
+     "examples": [
+      "touch-114086-1-115",
+      "touch-114086-1-125"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "backcourt": 4682,
+     "far": 3760,
+     "middle three": 1891,
+     "right wing three": 925,
+     "left wing three": 864,
+     "right wing two": 450,
+     "middle two": 450,
+     "left wing two": 441,
+     "key": 242,
+     "left corner two": 112,
+     "right corner two": 88,
+     "ra": 27,
+     "right corner three": 17,
+     "left corner three": 12
+    }
+   }
+  },
+  "drives": {
+   "rows_10_games": 660,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "drive-114086-1-0",
+      "drive-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-1",
+      "chance-114086-1-5"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-3"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startGameClock": {
+     "types": {
+      "float": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startFrame": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "direct": {
+     "types": {
+      "bool": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 659,
+      "null": 1
+     },
+     "null_pct": 0.15,
+     "examples": [
+      [
+       -36.77616469816274,
+       -20.61290190288713
+      ],
+      [
+       -14.507463910761155,
+       -3.114234744094488
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 659,
+      "null": 1
+     },
+     "null_pct": 0.15,
+     "examples": [
+      "right corner two",
+      "middle three"
+     ]
+    },
+    "endLoc": {
+     "types": {
+      "list": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       -40.0877624671916,
+       -2.273199126476378
+      ],
+      [
+       -34.9614501312336,
+       6.632166584645669
+      ]
+     ]
+    },
+    "shotClock": {
+     "types": {
+      "float": 655,
+      "null": 5
+     },
+     "null_pct": 0.76,
+     "examples": []
+    },
+    "ballhandlerId": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ballhandlerDefId": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "category": {
+     "types": {
+      "str": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "closeout",
+      "pick"
+     ]
+    },
+    "blowby": {
+     "types": {
+      "bool": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endType": {
+     "types": {
+      "str": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "shotNearBasket",
+      "kickout"
+     ]
+    },
+    "direction": {
+     "types": {
+      "str": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "right",
+      "left"
+     ]
+    },
+    "bhrOutcomes": {
+     "types": {
+      "list": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       "FGX"
+      ],
+      [
+       "PASS"
+      ]
+     ]
+    },
+    "dribbleThrough": {
+     "types": {
+      "bool": 660
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "touchId": {
+     "types": {
+      "str": 660
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "touch-114086-1-6",
+      "touch-114086-1-19"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "middle three": 182,
+     "far": 144,
+     "left wing three": 116,
+     "right wing three": 109,
+     "right wing two": 23,
+     "left wing two": 23,
+     "middle two": 22,
+     "right corner two": 11,
+     "right corner three": 11,
+     "left corner two": 8,
+     "left corner three": 7,
+     "key": 2,
+     "backcourt": 1
+    },
+    "category": {
+     "pick": 332,
+     "closeout": 111,
+     "miscellaneous": 76,
+     "iso": 75,
+     "handoff": 47,
+     "offBallScreen": 19
+    },
+    "endType": {
+     "shotNearBasket": 246,
+     "kickout": 184,
+     "pullup": 96,
+     "interiorPass": 64,
+     "stoppage": 29,
+     "turnover": 28,
+     "pullout": 13
+    },
+    "direction": {
+     "left": 347,
+     "right": 313
+    },
+    "bhrOutcomes": {
+     "PASS": 252,
+     "FGX": 163,
+     "FGM": 129,
+     "FOUL": 88,
+     "FOU_S": 56,
+     "AST0": 53,
+     "AST": 47,
+     "TO": 42,
+     "BLK": 23,
+     "AST3": 22,
+     "AST2": 22,
+     "FOU_N": 19,
+     "ASTF": 15,
+     "TMO": 12,
+     "FOU_B": 8,
+     "ASTO": 5,
+     "FOU_O": 5,
+     "FGM3": 1,
+     "FGX3": 1
+    }
+   }
+  },
+  "fouls": {
+   "rows_10_games": 443,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 443
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "foul-114086-1-0",
+      "foul-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 443
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 443
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-0",
+      "chance-114086-1-6"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 443
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-4"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "gameClock": {
+     "types": {
+      "float": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "frame": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "wallClock": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "foulerId": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "fouledId": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "foulerTeamId": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "fouledTeamId": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "shooting": {
+     "types": {
+      "bool": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 439,
+      "null": 4
+     },
+     "null_pct": 0.9,
+     "examples": [
+      [
+       -29.194348753280828,
+       8.900559793307085
+      ],
+      [
+       -39.682783792650895,
+       4.5784377050524165
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 439,
+      "null": 4
+     },
+     "null_pct": 0.9,
+     "examples": [
+      "left wing two",
+      "key"
+     ]
+    },
+    "offTeamId": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "foulType": {
+     "types": {
+      "str": 443
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "other",
+      "shooting"
+     ]
+    },
+    "isBonus": {
+     "types": {
+      "bool": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "isTeam": {
+     "types": {
+      "bool": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "isTechnical": {
+     "types": {
+      "bool": 443
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "touchId": {
+     "types": {
+      "str": 348,
+      "null": 95
+     },
+     "null_pct": 21.44,
+     "examples": [
+      "touch-114086-1-1",
+      "touch-114086-1-25"
+     ]
+    },
+    "shotId": {
+     "types": {
+      "null": 370,
+      "str": 73
+     },
+     "null_pct": 83.52,
+     "examples": [
+      "shot-114086-1-5",
+      "shot-114086-1-11"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "key": 120,
+     "ra": 81,
+     "backcourt": 43,
+     "far": 37,
+     "middle three": 30,
+     "left wing two": 25,
+     "right wing two": 24,
+     "middle two": 22,
+     "left wing three": 20,
+     "right wing three": 18,
+     "left corner two": 9,
+     "right corner two": 7,
+     "left corner three": 2,
+     "right corner three": 1
+    },
+    "foulType": {
+     "other": 262,
+     "shooting": 151,
+     "offensive": 28,
+     "flagrant": 2
+    }
+   }
+  },
+  "free_throws": {
+   "rows_10_games": 430,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 430
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "free_throw-114086-1-0",
+      "free_throw-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 430
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 430
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 430
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-6",
+      "chance-114086-1-6"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 430
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-4",
+      "possession-114086-1-4"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 430
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "gameClock": {
+     "types": {
+      "float": 430
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "frame": {
+     "types": {
+      "int": 430
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "wallClock": {
+     "types": {
+      "int": 430
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 430
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 430
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "shooterId": {
+     "types": {
+      "int": 430
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "outcome": {
+     "types": {
+      "bool": 430
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "foulId": {
+     "types": {
+      "str": 429,
+      "null": 1
+     },
+     "null_pct": 0.23,
+     "examples": [
+      "foul-114086-1-1",
+      "foul-114086-1-1"
+     ]
+    },
+    "shotId": {
+     "types": {
+      "str": 258,
+      "null": 172
+     },
+     "null_pct": 40.0,
+     "examples": [
+      "shot-114086-1-5",
+      "shot-114086-1-5"
+     ]
+    }
+   },
+   "enums": {}
+  },
+  "handoffs": {
+   "rows_10_games": 417,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "handoff-114086-1-0",
+      "handoff-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-7",
+      "chance-114086-1-18"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-5",
+      "possession-114086-1-14"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "gameClock": {
+     "types": {
+      "float": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "frame": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "wallClock": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "direct": {
+     "types": {
+      "bool": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       -18.410770089285716,
+       -7.629843750000001
+      ],
+      [
+       -24.205803571428575,
+       -19.01375
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "middle three",
+      "right wing three"
+     ]
+    },
+    "shotClock": {
+     "types": {
+      "float": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "setterId": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "receiverId": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "setterDefId": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "receiverDefId": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "locationType": {
+     "types": {
+      "str": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "middle",
+      "wing"
+     ]
+    },
+    "receiverDefType": {
+     "types": {
+      "str": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "over",
+      "switch"
+     ]
+    },
+    "setterDefType": {
+     "types": {
+      "str": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "show",
+      "switch"
+     ]
+    },
+    "bhrOutcomes": {
+     "types": {
+      "list": 417
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       "AST0",
+       "PASS"
+      ],
+      [
+       "PASS"
+      ]
+     ]
+    },
+    "handoffPick": {
+     "types": {
+      "bool": 417
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "touchId": {
+     "types": {
+      "str": 408,
+      "null": 9
+     },
+     "null_pct": 2.16,
+     "examples": [
+      "touch-114086-1-30",
+      "touch-114086-1-63"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "middle three": 156,
+     "left wing three": 91,
+     "right wing three": 78,
+     "far": 41,
+     "right wing two": 20,
+     "left wing two": 16,
+     "middle two": 13,
+     "right corner two": 1,
+     "left corner two": 1
+    },
+    "locationType": {
+     "wing": 187,
+     "middle": 171,
+     "stepUp": 59
+    },
+    "receiverDefType": {
+     "under": 243,
+     "over": 123,
+     "switch": 51
+    },
+    "setterDefType": {
+     "soft": 261,
+     "show": 105,
+     "switch": 51
+    },
+    "bhrOutcomes": {
+     "PASS": 295,
+     "PASS_SCR": 98,
+     "FGX": 48,
+     "AST0": 40,
+     "FGM": 34,
+     "AST": 26,
+     "FGX3": 23,
+     "AST2": 17,
+     "TO": 17,
+     "ASTF": 15,
+     "FOUL": 14,
+     "FGM3": 13,
+     "AST3": 11,
+     "FOU_N": 7,
+     "FOU_S": 7,
+     "ASTO": 4,
+     "BLK": 3,
+     "TMO": 2
+    }
+   }
+  },
+  "isolations": {
+   "rows_10_games": 180,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 180
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "isolation-114086-1-0",
+      "isolation-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 180
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 180
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-33",
+      "chance-114086-1-42"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 180
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-25",
+      "possession-114086-1-34"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startGameClock": {
+     "types": {
+      "float": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startFrame": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "direct": {
+     "types": {
+      "bool": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 180
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       -29.255864501312352,
+       -21.556143372703396
+      ],
+      [
+       -4.524611425524935,
+       -6.939104535761155
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 180
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "right wing three",
+      "far"
+     ]
+    },
+    "endLoc": {
+     "types": {
+      "list": 180
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       -29.255864501312384,
+       -21.40748031496071
+      ],
+      [
+       -39.42134186351706,
+       -1.2815780839895012
+      ]
+     ]
+    },
+    "shotClock": {
+     "types": {
+      "float": 177,
+      "null": 3
+     },
+     "null_pct": 1.67,
+     "examples": []
+    },
+    "ballhandlerId": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ballhandlerDefId": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 180
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "bhrOutcomes": {
+     "types": {
+      "list": 180
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       "PASS"
+      ],
+      [
+       "FGM",
+       "FOUL",
+       "FOU_S"
+      ]
+     ]
+    },
+    "touchId": {
+     "types": {
+      "str": 180
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "touch-114086-1-124",
+      "touch-114086-1-162"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "far": 44,
+     "middle three": 40,
+     "left wing three": 33,
+     "right wing three": 32,
+     "right wing two": 9,
+     "left wing two": 5,
+     "right corner two": 5,
+     "middle two": 3,
+     "right corner three": 3,
+     "left corner three": 2,
+     "key": 2,
+     "left corner two": 1,
+     "backcourt": 1
+    },
+    "bhrOutcomes": {
+     "FGX": 65,
+     "PASS": 47,
+     "FGM": 30,
+     "FOUL": 26,
+     "FGX3": 25,
+     "TO": 15,
+     "FOU_N": 12,
+     "AST0": 11,
+     "FOU_S": 10,
+     "FGM3": 10,
+     "AST": 8,
+     "BLK": 6,
+     "TMO": 5,
+     "AST2": 4,
+     "AST3": 4,
+     "FOU_B": 3,
+     "ASTF": 2,
+     "FOU_O": 1
+    }
+   }
+  },
+  "matchups": {
+   "rows_10_games": 14416,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 14416
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "matchup-114086-1-0",
+      "matchup-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 14416
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 14416
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-0",
+      "chance-114086-1-0"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 14416
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-0"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startGameClock": {
+     "types": {
+      "float": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startFrame": {
+     "types": {
+      "int": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "shotClock": {
+     "types": {
+      "float": 14334,
+      "null": 82
+     },
+     "null_pct": 0.57,
+     "examples": []
+    },
+    "defPlayerId": {
+     "types": {
+      "int": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offPlayerId": {
+     "types": {
+      "int": 14416
+     },
+     "null_pct": 0.0,
+     "examples": []
+    }
+   },
+   "enums": {}
+  },
+  "off_ball_screens": {
+   "rows_10_games": 1103,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "off_ball_screen-114086-1-0",
+      "off_ball_screen-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-0",
+      "chance-114086-1-0"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-0"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "gameClock": {
+     "types": {
+      "float": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "frame": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "wallClock": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "direct": {
+     "types": {
+      "bool": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       -32.33423549107143,
+       11.242968750000001
+      ],
+      [
+       -24.834026227678574,
+       2.085234375
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "left wing two",
+      "middle two"
+     ]
+    },
+    "shotClock": {
+     "types": {
+      "float": 1069,
+      "null": 34
+     },
+     "null_pct": 3.08,
+     "examples": []
+    },
+    "cutterId": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "screenerId": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "cutterDefId": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "screenerDefId": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "cutterDefType": {
+     "types": {
+      "str": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "trail",
+      "trail"
+     ]
+    },
+    "screenerDefType": {
+     "types": {
+      "str": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "drop",
+      "drop"
+     ]
+    },
+    "outcomes": {
+     "types": {
+      "list": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       "PASS"
+      ],
+      [
+       "PASS"
+      ]
+     ]
+    },
+    "ledToTouch": {
+     "types": {
+      "bool": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ledToShot": {
+     "types": {
+      "bool": 1103
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "scrOutcomes": {
+     "types": {
+      "list": 1103
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [],
+      []
+     ]
+    },
+    "touchId": {
+     "types": {
+      "str": 641,
+      "null": 462
+     },
+     "null_pct": 41.89,
+     "examples": [
+      "touch-114086-1-1",
+      "touch-114086-1-1"
+     ]
+    },
+    "scrTouchId": {
+     "types": {
+      "null": 989,
+      "str": 114
+     },
+     "null_pct": 89.66,
+     "examples": [
+      "touch-114086-1-29",
+      "touch-114086-1-68"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "middle two": 270,
+     "left wing two": 247,
+     "right wing two": 245,
+     "key": 149,
+     "middle three": 113,
+     "left wing three": 38,
+     "right wing three": 27,
+     "left corner two": 6,
+     "ra": 5,
+     "right corner two": 3
+    },
+    "cutterDefType": {
+     "trail": 602,
+     "whip": 442,
+     "switch": 56,
+     "top lock": 3
+    },
+    "screenerDefType": {
+     "drop": 807,
+     "jam": 178,
+     "show": 62,
+     "switch": 56
+    },
+    "outcomes": {
+     "PASS": 427,
+     "FGX": 97,
+     "FGM": 70,
+     "FGX3": 53,
+     "AST0": 45,
+     "FOUL": 38,
+     "AST": 36,
+     "FGM3": 32,
+     "FOU_N": 24,
+     "AST3": 22,
+     "AST2": 20,
+     "TO": 20,
+     "ASTF": 15,
+     "FOU_S": 11,
+     "BLK": 7,
+     "FOU_B": 3,
+     "TMO": 2,
+     "ASTO": 2
+    },
+    "scrOutcomes": {
+     "PASS": 90,
+     "FGX": 31,
+     "FGX3": 20,
+     "FGM": 19,
+     "AST0": 17,
+     "FOUL": 13,
+     "FGM3": 8,
+     "FOU_N": 6,
+     "FOU_S": 6,
+     "AST": 5,
+     "AST2": 4,
+     "ASTF": 4,
+     "TO": 3,
+     "ASTO": 2,
+     "AST3": 2,
+     "BLK": 1,
+     "FOU_B": 1
+    }
+   }
+  },
+  "passes": {
+   "rows_10_games": 4786,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 4786
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "pass-114086-1-0",
+      "pass-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 4786
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "chanceId": {
+     "types": {
+      "str": 4786
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-0",
+      "chance-114086-1-0"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 4786
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-0"
+     ]
+    },
+    "startFrame": {
+     "types": {
+      "int": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 4718,
+      "null": 68
+     },
+     "null_pct": 1.42,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 4718,
+      "null": 68
+     },
+     "null_pct": 1.42,
+     "examples": []
+    },
+    "startGameClock": {
+     "types": {
+      "float": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 4718,
+      "null": 68
+     },
+     "null_pct": 1.42,
+     "examples": []
+    },
+    "shotClock": {
+     "types": {
+      "float": 3880,
+      "null": 906
+     },
+     "null_pct": 18.93,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "passerId": {
+     "types": {
+      "int": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "receiverId": {
+     "types": {
+      "int": 4629,
+      "null": 157
+     },
+     "null_pct": 3.28,
+     "examples": []
+    },
+    "toReceiverId": {
+     "types": {
+      "null": 4697,
+      "int": 89
+     },
+     "null_pct": 98.14,
+     "examples": []
+    },
+    "complete": {
+     "types": {
+      "bool": 4718,
+      "null": 68
+     },
+     "null_pct": 1.42,
+     "examples": []
+    },
+    "turnover": {
+     "types": {
+      "bool": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ledToShot": {
+     "types": {
+      "bool": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "assistOpp": {
+     "types": {
+      "bool": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "inbounds": {
+     "types": {
+      "bool": 4698,
+      "null": 88
+     },
+     "null_pct": 1.84,
+     "examples": []
+    },
+    "backcourt": {
+     "types": {
+      "bool": 4786
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "passerLoc": {
+     "types": {
+      "list": 4698,
+      "null": 88
+     },
+     "null_pct": 1.84,
+     "examples": [
+      [
+       -10.592242864173228,
+       16.506725721784775
+      ],
+      [
+       -25.89556676509184,
+       10.90494791666666
+      ]
+     ]
+    },
+    "receiverLoc": {
+     "types": {
+      "list": 4541,
+      "null": 245
+     },
+     "null_pct": 5.12,
+     "examples": [
+      [
+       -16.814304461942257,
+       -2.217130085301837
+      ],
+      [
+       -25.905819389763735,
+       -2.761480376476375
+      ]
+     ]
+    },
+    "passerRegion": {
+     "types": {
+      "str": 4698,
+      "null": 88
+     },
+     "null_pct": 1.84,
+     "examples": [
+      "far",
+      "left wing two"
+     ]
+    },
+    "receiverRegion": {
+     "types": {
+      "str": 4541,
+      "null": 245
+     },
+     "null_pct": 5.12,
+     "examples": [
+      "middle three",
+      "middle two"
+     ]
+    },
+    "distance": {
+     "types": {
+      "float": 4541,
+      "null": 245
+     },
+     "null_pct": 5.12,
+     "examples": []
+    },
+    "touchId": {
+     "types": {
+      "str": 4758,
+      "null": 28
+     },
+     "null_pct": 0.59,
+     "examples": [
+      "touch-114086-1-0",
+      "touch-114086-1-1"
+     ]
+    }
+   },
+   "enums": {
+    "passerRegion": {
+     "backcourt": 1330,
+     "far": 819,
+     "middle three": 688,
+     "left wing three": 502,
+     "right wing three": 428,
+     "key": 280,
+     "left wing two": 158,
+     "right wing two": 157,
+     "middle two": 140,
+     "right corner two": 65,
+     "left corner two": 60,
+     "ra": 28,
+     "right corner three": 23,
+     "left corner three": 20
+    },
+    "receiverRegion": {
+     "backcourt": 1214,
+     "middle three": 699,
+     "left wing three": 510,
+     "far": 506,
+     "right wing three": 461,
+     "middle two": 243,
+     "left wing two": 227,
+     "key": 208,
+     "right wing two": 201,
+     "right corner three": 79,
+     "left corner three": 77,
+     "right corner two": 46,
+     "left corner two": 44,
+     "ra": 26
+    }
+   }
+  },
+  "picks": {
+   "rows_10_games": 1520,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "pick-114086-1-0",
+      "pick-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-0",
+      "chance-114086-1-3"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-1"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "gameClock": {
+     "types": {
+      "float": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "frame": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "wallClock": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "direct": {
+     "types": {
+      "bool": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       -10.596449497767857,
+       1.803359375
+      ],
+      [
+       -17.897935267857143,
+       -8.61
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "middle three",
+      "middle three"
+     ]
+    },
+    "shotClock": {
+     "types": {
+      "float": 1514,
+      "null": 6
+     },
+     "null_pct": 0.39,
+     "examples": []
+    },
+    "ballhandlerId": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "screenerId": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ballhandlerDefId": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "screenerDefId": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "locationType": {
+     "types": {
+      "str": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "middle",
+      "middle"
+     ]
+    },
+    "bhrDefType": {
+     "types": {
+      "str": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "over",
+      "over"
+     ]
+    },
+    "scrDefType": {
+     "types": {
+      "str": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "show",
+      "soft"
+     ]
+    },
+    "bhrOutcomes": {
+     "types": {
+      "list": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       "PASS",
+       "PASS_SCR"
+      ],
+      [
+       "PASS",
+       "PASS_SCR"
+      ]
+     ]
+    },
+    "scrOutcomes": {
+     "types": {
+      "list": 1520
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [],
+      [
+       "AST0",
+       "PASS"
+      ]
+     ]
+    },
+    "handoffPick": {
+     "types": {
+      "bool": 1520
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "touchId": {
+     "types": {
+      "str": 1507,
+      "null": 13
+     },
+     "null_pct": 0.86,
+     "examples": [
+      "touch-114086-1-1",
+      "touch-114086-1-9"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "middle three": 896,
+     "left wing three": 158,
+     "middle two": 124,
+     "right wing three": 114,
+     "far": 102,
+     "left wing two": 67,
+     "right wing two": 57,
+     "key": 2
+    },
+    "locationType": {
+     "middle": 979,
+     "wing": 359,
+     "stepUp": 182
+    },
+    "bhrDefType": {
+     "over": 1004,
+     "under": 280,
+     "switch": 218,
+     "ice": 14,
+     "blitz": 4
+    },
+    "scrDefType": {
+     "soft": 663,
+     "show": 615,
+     "switch": 218,
+     "ice": 14,
+     "none": 6,
+     "blitz": 4
+    },
+    "bhrOutcomes": {
+     "PASS": 1037,
+     "PASS_SCR": 335,
+     "FGX": 188,
+     "FGM": 142,
+     "AST0": 141,
+     "AST": 114,
+     "FOUL": 91,
+     "FGX3": 73,
+     "AST2": 72,
+     "ASTF": 50,
+     "FOU_N": 48,
+     "TO": 45,
+     "FGM3": 43,
+     "AST3": 39,
+     "FOU_S": 33,
+     "ASTO": 21,
+     "BLK": 17,
+     "TMO": 14,
+     "FOU_B": 9,
+     "FOU_O": 1
+    },
+    "scrOutcomes": {
+     "PASS": 154,
+     "FGM": 75,
+     "FGX": 57,
+     "FOUL": 37,
+     "AST0": 24,
+     "FOU_S": 23,
+     "AST": 23,
+     "AST2": 14,
+     "FGX3": 12,
+     "FOU_N": 12,
+     "TO": 11,
+     "AST3": 11,
+     "FGM3": 8,
+     "TMO": 5,
+     "BLK": 4,
+     "ASTF": 3,
+     "ASTO": 2,
+     "FOU_B": 2
+    }
+   }
+  },
+  "possessions": {
+   "rows_10_games": 1564,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 1564
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 1564
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startFrame": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startGameClock": {
+     "types": {
+      "float": 1563,
+      "null": 1
+     },
+     "null_pct": 0.06,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startType": {
+     "types": {
+      "str": 1564
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "JMP",
+      "FGM"
+     ]
+    },
+    "outcome": {
+     "types": {
+      "str": 1564
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "FGM",
+      "FGX"
+     ]
+    },
+    "offPlayerIds": {
+     "types": {
+      "list": 1564
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       59136,
+       35096,
+       59138,
+       24949,
+       24268
+      ],
+      [
+       35402,
+       59158,
+       25182,
+       59157,
+       15347
+      ]
+     ]
+    },
+    "defPlayerIds": {
+     "types": {
+      "list": 1564
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       35402,
+       59158,
+       25182,
+       59157,
+       15347
+      ],
+      [
+       59136,
+       35096,
+       59138,
+       24949,
+       24268
+      ]
+     ]
+    },
+    "homeStartScore": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "awayStartScore": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ptsScored": {
+     "types": {
+      "int": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ballInPaint": {
+     "types": {
+      "bool": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endLoc": {
+     "types": {
+      "list": 1505,
+      "null": 59
+     },
+     "null_pct": 3.77,
+     "examples": [
+      [
+       -33.946440288713916,
+       5.047495283792648
+      ],
+      [
+       -23.588726213910746,
+       2.3190155429790034
+      ]
+     ]
+    },
+    "leftHoop": {
+     "types": {
+      "bool": 1564
+     },
+     "null_pct": 0.0,
+     "examples": []
+    }
+   },
+   "enums": {
+    "startType": {
+     "FGM": 485,
+     "FGDRB": 459,
+     "DEFOB": 255,
+     "FTM": 166,
+     "TO": 142,
+     "FTDRB": 44,
+     "JMP": 11,
+     "FGORB": 2
+    },
+    "outcome": {
+     "FGM": 395,
+     "FGX": 257,
+     "FGX3": 250,
+     "TO": 239,
+     "FOU": 222,
+     "FGM3": 175,
+     "EPD": 20,
+     "Out of Bounds": 6
+    }
+   }
+  },
+  "posts": {
+   "rows_10_games": 105,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 105
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "post-114086-1-0",
+      "post-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 105
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 105
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-4",
+      "chance-114086-1-33"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 105
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-2",
+      "possession-114086-1-25"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startGameClock": {
+     "types": {
+      "float": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startFrame": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "direct": {
+     "types": {
+      "bool": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 105
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       -40.4671095800525,
+       -5.346102977362219
+      ],
+      [
+       -40.06213090551184,
+       -16.009473425196877
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 105
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "key",
+      "right corner two"
+     ]
+    },
+    "endLoc": {
+     "types": {
+      "list": 105
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       -37.44771161417323,
+       -3.453852936351706
+      ],
+      [
+       -39.267552493438316,
+       -9.32988845144357
+      ]
+     ]
+    },
+    "shotClock": {
+     "types": {
+      "float": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ballhandlerId": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ballhandlerDefId": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "bhrOutcomes": {
+     "types": {
+      "list": 105
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       "FGX"
+      ],
+      [
+       "PASS"
+      ]
+     ]
+    },
+    "section": {
+     "types": {
+      "str": 81,
+      "null": 24
+     },
+     "null_pct": 22.86,
+     "examples": [
+      "right",
+      "right"
+     ]
+    },
+    "dribbledInto": {
+     "types": {
+      "bool": 105
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "touchId": {
+     "types": {
+      "str": 105
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "touch-114086-1-17",
+      "touch-114086-1-125"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "left wing two": 29,
+     "key": 27,
+     "right wing two": 19,
+     "left corner two": 15,
+     "right corner two": 10,
+     "ra": 2,
+     "right wing three": 1,
+     "right corner three": 1,
+     "left wing three": 1
+    },
+    "bhrOutcomes": {
+     "PASS": 34,
+     "FGX": 27,
+     "FGM": 25,
+     "FOUL": 15,
+     "AST0": 9,
+     "FOU_S": 7,
+     "FOU_N": 6,
+     "AST": 6,
+     "AST3": 4,
+     "TO": 4,
+     "AST2": 3,
+     "BLK": 3,
+     "FOU_B": 2,
+     "ASTO": 1,
+     "ASTF": 1,
+     "TMO": 1
+    },
+    "section": {
+     "left": 53,
+     "right": 26,
+     "middle": 2
+    }
+   }
+  },
+  "rebounds": {
+   "rows_10_games": 768,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 768
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "rebound-114086-1-0",
+      "rebound-114086-1-1"
+     ]
+    },
+    "shotId": {
+     "types": {
+      "str": 764,
+      "null": 4
+     },
+     "null_pct": 0.52,
+     "examples": [
+      "shot-114086-1-0",
+      "shot-114086-1-2"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 768
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 768
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 768
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-1",
+      "chance-114086-1-3"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 768
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-1"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 768
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "gameClock": {
+     "types": {
+      "float": 768
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "frame": {
+     "types": {
+      "int": 768
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "wallClock": {
+     "types": {
+      "int": 768
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "teamId": {
+     "types": {
+      "int": 768
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "rebounderId": {
+     "types": {
+      "int": 688,
+      "null": 80
+     },
+     "null_pct": 10.42,
+     "examples": []
+    },
+    "fgReb": {
+     "types": {
+      "bool": 768
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "rebounded": {
+     "types": {
+      "bool": 768
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defensive": {
+     "types": {
+      "bool": 768
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 662,
+      "null": 106
+     },
+     "null_pct": 13.8,
+     "examples": [
+      [
+       -36.98634350393701,
+       3.6268659776902887
+      ],
+      [
+       -39.052247375328086,
+       -6.366879921259825
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 662,
+      "null": 106
+     },
+     "null_pct": 13.8,
+     "examples": [
+      "key",
+      "key"
+     ]
+    },
+    "nextChanceId": {
+     "types": {
+      "str": 768
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-2",
+      "chance-114086-1-4"
+     ]
+    },
+    "touchId": {
+     "types": {
+      "null": 200,
+      "str": 568
+     },
+     "null_pct": 26.04,
+     "examples": [
+      "touch-114086-1-12",
+      "touch-114086-1-18"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "key": 283,
+     "ra": 267,
+     "left wing two": 30,
+     "right wing two": 24,
+     "right corner two": 16,
+     "left corner two": 13,
+     "middle two": 9,
+     "backcourt": 6,
+     "right wing three": 5,
+     "middle three": 4,
+     "left wing three": 4,
+     "right corner three": 1
+    }
+   }
+  },
+  "shots": {
+   "rows_10_games": 1459,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 1459
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "shot-114086-1-0",
+      "shot-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 1459
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "chanceId": {
+     "types": {
+      "str": 1459
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-1",
+      "chance-114086-1-2"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 1459
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-0"
+     ]
+    },
+    "startFrame": {
+     "types": {
+      "int": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startGameClock": {
+     "types": {
+      "float": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": [
+      [
+       -40.0877624671916,
+       -2.273199126476378
+      ],
+      [
+       -33.946440288713916,
+       5.047495283792648
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": [
+      "ra",
+      "key"
+     ]
+    },
+    "shotClock": {
+     "types": {
+      "float": 1452,
+      "null": 7
+     },
+     "null_pct": 0.48,
+     "examples": []
+    },
+    "shooterId": {
+     "types": {
+      "int": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "three": {
+     "types": {
+      "bool": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "outcome": {
+     "types": {
+      "bool": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "fouled": {
+     "types": {
+      "bool": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "foulId": {
+     "types": {
+      "null": 1316,
+      "str": 143
+     },
+     "null_pct": 90.2,
+     "examples": [
+      "foul-114086-1-1",
+      "foul-114086-1-3"
+     ]
+    },
+    "assisted": {
+     "types": {
+      "bool": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "assistOpp": {
+     "types": {
+      "bool": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "passerId": {
+     "types": {
+      "int": 1280,
+      "null": 179
+     },
+     "null_pct": 12.27,
+     "examples": []
+    },
+    "blocked": {
+     "types": {
+      "bool": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "blockerId": {
+     "types": {
+      "null": 1408,
+      "int": 51
+     },
+     "null_pct": 96.5,
+     "examples": []
+    },
+    "distance": {
+     "types": {
+      "float": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": []
+    },
+    "dribblesBefore": {
+     "types": {
+      "int": 1378,
+      "null": 81
+     },
+     "null_pct": 5.55,
+     "examples": []
+    },
+    "shotType": {
+     "types": {
+      "str": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": [
+      "layup",
+      "post"
+     ]
+    },
+    "complexShotType": {
+     "types": {
+      "str": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": [
+      "layup",
+      "hook"
+     ]
+    },
+    "catchAndShoot": {
+     "types": {
+      "bool": 1384,
+      "null": 75
+     },
+     "null_pct": 5.14,
+     "examples": []
+    },
+    "shotQuality": {
+     "types": {
+      "float": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": []
+    },
+    "createdFromPaint": {
+     "types": {
+      "bool": 1459
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "contested": {
+     "types": {
+      "bool": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": []
+    },
+    "contestLevel": {
+     "types": {
+      "str": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": [
+      "plus",
+      "plus"
+     ]
+    },
+    "releaseTime": {
+     "types": {
+      "float": 1377,
+      "null": 82
+     },
+     "null_pct": 5.62,
+     "examples": []
+    },
+    "closestDefDist": {
+     "types": {
+      "float": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": []
+    },
+    "closestDefId": {
+     "types": {
+      "int": 1433,
+      "null": 26
+     },
+     "null_pct": 1.78,
+     "examples": []
+    },
+    "touchId": {
+     "types": {
+      "str": 1378,
+      "null": 81
+     },
+     "null_pct": 5.55,
+     "examples": [
+      "touch-114086-1-6",
+      "touch-114086-1-11"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "ra": 381,
+     "key": 369,
+     "left wing three": 144,
+     "right wing three": 132,
+     "middle three": 129,
+     "left corner three": 61,
+     "right wing two": 44,
+     "left wing two": 42,
+     "right corner three": 41,
+     "middle two": 32,
+     "right corner two": 24,
+     "left corner two": 22,
+     "backcourt": 9,
+     "far": 3
+    },
+    "shotType": {
+     "jumper": 691,
+     "layup": 577,
+     "post": 85,
+     "floater": 71,
+     "heave": 9
+    },
+    "complexShotType": {
+     "layup": 486,
+     "dribblePullUp": 277,
+     "catchAndShoot": 230,
+     "offMove": 141,
+     "floater": 71,
+     "hook": 69,
+     "dunk": 42,
+     "tip": 38,
+     "stepback": 30,
+     "postFadeaway": 16,
+     "lob": 11,
+     "shakeAndRaise": 10,
+     "heave": 9,
+     "leaner": 3
+    },
+    "contestLevel": {
+     "plus": 593,
+     "average": 395,
+     "open": 301,
+     "light": 93,
+     "blocked": 51
+    }
+   }
+  },
+  "timeouts": {
+   "rows_10_games": 65,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 65
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "timeout-114086-2-0",
+      "timeout-114086-2-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 65
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 65
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 65
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-2-94",
+      "chance-114086-2-76"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 65
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-2-73",
+      "possession-114086-2-58"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 65
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "gameClock": {
+     "types": {
+      "float": 65
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "frame": {
+     "types": {
+      "int": 65
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "wallClock": {
+     "types": {
+      "int": 65
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "teamId": {
+     "types": {
+      "int": 48,
+      "null": 17
+     },
+     "null_pct": 26.15,
+     "examples": []
+    }
+   },
+   "enums": {}
+  },
+  "touches": {
+   "rows_10_games": 6662,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 6662
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "touch-114086-1-0",
+      "touch-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 6662
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "chanceId": {
+     "types": {
+      "str": 6662
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-0",
+      "chance-114086-1-0"
+     ]
+    },
+    "possessionId": {
+     "types": {
+      "str": 6662
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-0",
+      "possession-114086-1-0"
+     ]
+    },
+    "startFrame": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endFrame": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startWallClock": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endWallClock": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "startGameClock": {
+     "types": {
+      "float": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "endGameClock": {
+     "types": {
+      "float": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "shotClock": {
+     "types": {
+      "float": 5311,
+      "null": 1351
+     },
+     "null_pct": 20.28,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "playerId": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defenderId": {
+     "types": {
+      "int": 6572,
+      "null": 90
+     },
+     "null_pct": 1.35,
+     "examples": []
+    },
+    "closestDefLoc": {
+     "types": {
+      "list": 6268,
+      "null": 394
+     },
+     "null_pct": 5.91,
+     "examples": [
+      [
+       9.5093093832021,
+       4.962911130249344
+      ],
+      [
+       -18.380392880577418,
+       -0.6169997488106949
+      ]
+     ]
+    },
+    "location": {
+     "types": {
+      "list": 6572,
+      "null": 90
+     },
+     "null_pct": 1.35,
+     "examples": [
+      [
+       17.455093503937007,
+       5.126312335958005
+      ],
+      [
+       -12.515891568241459,
+       -1.3408510703740133
+      ]
+     ]
+    },
+    "endLoc": {
+     "types": {
+      "list": 6572,
+      "null": 90
+     },
+     "null_pct": 1.35,
+     "examples": [
+      [
+       -10.592242864173228,
+       16.506725721784775
+      ],
+      [
+       -25.89556676509184,
+       10.90494791666666
+      ]
+     ]
+    },
+    "numDribbles": {
+     "types": {
+      "int": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "ledToShot": {
+     "types": {
+      "bool": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "touchTime": {
+     "types": {
+      "float": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "outcomes": {
+     "types": {
+      "list": 6662
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       "PASS"
+      ],
+      [
+       "PASS"
+      ]
+     ]
+    },
+    "regionsIn": {
+     "types": {
+      "list": 6662
+     },
+     "null_pct": 0.0,
+     "examples": [
+      [
+       "backcourt",
+       "far"
+      ],
+      [
+       "middle three",
+       "far",
+       "left wing three",
+       "left wing two"
+      ]
+     ]
+    },
+    "endClosestDefLoc": {
+     "types": {
+      "list": 6522,
+      "null": 140
+     },
+     "null_pct": 2.1,
+     "examples": [
+      [
+       -13.456569881889763,
+       14.75096374671916
+      ],
+      [
+       -26.479966371391047,
+       8.503270587270334
+      ]
+     ]
+    },
+    "direct": {
+     "types": {
+      "bool": 6662
+     },
+     "null_pct": 0.0,
+     "examples": []
+    }
+   },
+   "enums": {
+    "outcomes": {
+     "PASS": 4730,
+     "FGX": 704,
+     "FGM": 570,
+     "AST0": 381,
+     "FGX3": 346,
+     "FOUL": 343,
+     "AST": 296,
+     "AST2": 183,
+     "FGM3": 175,
+     "TO": 164,
+     "FOU_N": 146,
+     "FOU_S": 140,
+     "AST3": 129,
+     "ASTF": 113,
+     "TMO": 61,
+     "BLK": 47,
+     "FOU_B": 46,
+     "ASTO": 43,
+     "FOU_O": 8,
+     "FOU_F": 2
+    },
+    "regionsIn": {
+     "backcourt": 2737,
+     "far": 2353,
+     "middle three": 2034,
+     "left wing three": 1277,
+     "key": 1221,
+     "right wing three": 1216,
+     "middle two": 833,
+     "left wing two": 652,
+     "right wing two": 628,
+     "ra": 489,
+     "left corner two": 225,
+     "right corner two": 203,
+     "left corner three": 124,
+     "right corner three": 118
+    }
+   }
+  },
+  "turnovers": {
+   "rows_10_games": 248,
+   "fields": {
+    "id": {
+     "types": {
+      "str": 248
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "turnover-114086-1-0",
+      "turnover-114086-1-1"
+     ]
+    },
+    "gameId": {
+     "types": {
+      "int": 248
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "season": {
+     "types": {
+      "str": 248
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "2025-2026",
+      "2025-2026"
+     ]
+    },
+    "period": {
+     "types": {
+      "int": 248
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "possessionId": {
+     "types": {
+      "str": 248
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "possession-114086-1-12",
+      "possession-114086-1-19"
+     ]
+    },
+    "chanceId": {
+     "types": {
+      "str": 248
+     },
+     "null_pct": 0.0,
+     "examples": [
+      "chance-114086-1-15",
+      "chance-114086-1-26"
+     ]
+    },
+    "gameClock": {
+     "types": {
+      "float": 248
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "frame": {
+     "types": {
+      "int": 248
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "wallClock": {
+     "types": {
+      "int": 248
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "offTeamId": {
+     "types": {
+      "int": 248
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "defTeamId": {
+     "types": {
+      "int": 248
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "turnedOverId": {
+     "types": {
+      "int": 238,
+      "null": 10
+     },
+     "null_pct": 4.03,
+     "examples": []
+    },
+    "stealerId": {
+     "types": {
+      "int": 144,
+      "null": 104
+     },
+     "null_pct": 41.94,
+     "examples": []
+    },
+    "teamId": {
+     "types": {
+      "int": 248
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "teamTo": {
+     "types": {
+      "bool": 248
+     },
+     "null_pct": 0.0,
+     "examples": []
+    },
+    "location": {
+     "types": {
+      "list": 236,
+      "null": 12
+     },
+     "null_pct": 4.84,
+     "examples": [
+      [
+       -50.92991305774278,
+       -9.12483595800525
+      ],
+      [
+       -23.991141732283538,
+       2.004388123359549
+      ]
+     ]
+    },
+    "region": {
+     "types": {
+      "str": 236,
+      "null": 12
+     },
+     "null_pct": 4.84,
+     "examples": [
+      "right corner two",
+      "middle two"
+     ]
+    },
+    "touchId": {
+     "types": {
+      "str": 154,
+      "null": 94
+     },
+     "null_pct": 37.9,
+     "examples": [
+      "touch-114086-1-55",
+      "touch-114086-1-96"
+     ]
+    }
+   },
+   "enums": {
+    "region": {
+     "key": 55,
+     "backcourt": 27,
+     "far": 25,
+     "middle three": 19,
+     "right wing three": 18,
+     "right wing two": 18,
+     "left wing three": 16,
+     "middle two": 15,
+     "ra": 15,
+     "left wing two": 15,
+     "left corner two": 7,
+     "right corner two": 4,
+     "left corner three": 2
+    }
+   }
+  }
+ }
+}
